@@ -89,7 +89,7 @@ body {
 /* Section label: small-caps tracked uppercase in IOS Orange */
 .section-label {
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ios-orange);

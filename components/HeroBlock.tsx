@@ -11,15 +11,15 @@ export default function HeroBlock() {
       }}
     >
       <div className="max-w-7xl mx-auto w-full px-6 lg:px-12 pb-20 lg:pb-28">
-        {/* All-white logo */}
-        <div className="mb-16 lg:mb-20">
+        {/* Standard 2C logo — centered above headline */}
+        <div className="mb-16 lg:mb-20 flex justify-center">
           <Image
-            src="/logos/Base_CRE_Logo_All_White_3Color.svg"
+            src="/logos/Base_CRE_Logo_Standard_2C_3Color.svg"
             alt="Base CRE"
             width={160}
             height={157}
             priority
-            style={{ width: "auto", height: "56px" }}
+            style={{ width: "auto", height: "96px" }}
           />
         </div>
 
@@ -35,7 +35,7 @@ export default function HeroBlock() {
             maxWidth: "900px",
           }}
         >
-          Base CRE. Industrial Real Estate Advisory.
+          Industrial Real Estate Advisory.
         </h1>
 
         {/* Subhead */}
@@ -50,7 +50,7 @@ export default function HeroBlock() {
             marginBottom: 0,
           }}
         >
-          Operator experience. Industrial focus.
+          Industrial real estate brokerage
         </p>
       </div>
     </section>
