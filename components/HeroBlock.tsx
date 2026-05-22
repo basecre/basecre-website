@@ -5,7 +5,7 @@ export default function HeroBlock() {
     <section
       className="relative flex flex-col justify-end"
       style={{
-        backgroundColor: "var(--ios-navy)",
+        backgroundColor: "var(--white)",
         minHeight: "100svh",
         paddingTop: "64px", /* nav height clearance */
       }}
@@ -27,10 +27,10 @@ export default function HeroBlock() {
         <h1
           style={{
             fontWeight: 700,
-            fontSize: "clamp(2.75rem, 6.5vw, 6rem)",
+            fontSize: "clamp(2rem, 4vw, 4rem)",
             lineHeight: 1.0,
             letterSpacing: "-0.01em",
-            color: "var(--white)",
+            color: "var(--near-black)",
             margin: 0,
             maxWidth: "900px",
           }}
