@@ -19,7 +19,7 @@ export default function HeroBlock() {
             width={160}
             height={157}
             priority
-            style={{ width: "auto", height: "96px" }}
+            style={{ width: "auto", height: "192px" }}
           />
         </div>
 
@@ -35,7 +35,7 @@ export default function HeroBlock() {
             maxWidth: "900px",
           }}
         >
-          Industrial Real Estate Advisory.
+          Industrial Real Estate Brokerage.
         </h1>
 
         {/* Subhead */}
@@ -50,7 +50,7 @@ export default function HeroBlock() {
             marginBottom: 0,
           }}
         >
-          Industrial real estate brokerage
+          Operator experience. Industrial focus.
         </p>
       </div>
     </section>
