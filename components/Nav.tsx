@@ -8,6 +8,7 @@ import Image from "next/image";
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [heroVisible, setHeroVisible] = useState(true);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -15,6 +16,22 @@ export default function Nav() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Hide nav logo on home page while the hero section is in view
+  useEffect(() => {
+    if (pathname !== "/") return;
+    setHeroVisible(true);
+    const hero = document.getElementById("hero");
+    if (!hero) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => setHeroVisible(entry.isIntersecting),
+      { threshold: 0 }
+    );
+    observer.observe(hero);
+    return () => observer.disconnect();
+  }, [pathname]);
+
+  const showNavLogo = pathname !== "/" || !heroVisible;
 
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
@@ -37,8 +54,13 @@ export default function Nav() {
       }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-16">
-        {/* Logo */}
-        <Link href="/" className="flex items-center shrink-0">
+        {/* Logo — hidden on home page while hero is visible */}
+        <Link
+          href="/"
+          className={`flex items-center shrink-0 transition-opacity duration-300 ${
+            showNavLogo ? "opacity-100" : "opacity-0 pointer-events-none"
+          }`}
+        >
           <Image
             src="/logos/Base_CRE_Logo_Standard_2C_3Color.svg"
             alt="Base CRE"

@@ -3,23 +3,24 @@ import Image from "next/image";
 export default function HeroBlock() {
   return (
     <section
+      id="hero"
       className="relative flex flex-col justify-end"
       style={{
         backgroundColor: "var(--white)",
-        minHeight: "100svh",
+        minHeight: "75svh",
         paddingTop: "64px", /* nav height clearance */
       }}
     >
       <div className="max-w-7xl mx-auto w-full px-6 lg:px-12 pb-20 lg:pb-28">
-        {/* Standard 2C logo — centered above headline */}
-        <div className="mb-16 lg:mb-20 flex justify-center">
+        {/* Standard 2C logo — left-aligned */}
+        <div className="mb-16 lg:mb-20">
           <Image
             src="/logos/Base_CRE_Logo_Standard_2C_3Color.svg"
             alt="Base CRE"
             width={160}
             height={157}
             priority
-            style={{ width: "auto", height: "192px" }}
+            style={{ width: "auto", height: "240px" }}
           />
         </div>
 
