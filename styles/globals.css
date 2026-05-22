@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+/* ─── Brand Color Tokens ─────────────────────────────────────────────────── */
+:root {
+  --ios-orange: #EB5124;
+  --dark-olive: #494C45;
+  --cre-gray: #92938F;
+  --near-black: #231F20;
+  --ios-navy: #0F2F43;
+  --white: #FFFFFF;
+}
+
+/* ─── Tailwind Theme Extension ───────────────────────────────────────────── */
+@theme {
+  --color-ios-orange: var(--ios-orange);
+  --color-dark-olive: var(--dark-olive);
+  --color-cre-gray: var(--cre-gray);
+  --color-near-black: var(--near-black);
+  --color-ios-navy: var(--ios-navy);
+  --color-white: var(--white);
+
+  --font-helvetica-neue: "HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* ─── Font Faces ─────────────────────────────────────────────────────────── */
+@font-face {
+  font-family: "HelveticaNeueLTStd";
+  src: url("/fonts/HelveticaNeueLTStd-BdCn.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTStd";
+  src: url("/fonts/HelveticaNeueLTStd-MdCn.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTStd";
+  src: url("/fonts/HelveticaNeueLTStd-Cn.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTStd";
+  src: url("/fonts/HelveticaNeueLTStd-LtCn.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ─── Base Styles ────────────────────────────────────────────────────────── */
+html {
+  font-family: "HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--dark-olive);
+  background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── Typography Utilities ───────────────────────────────────────────────── */
+.font-bold-condensed {
+  font-weight: 700;
+}
+
+.font-medium-condensed {
+  font-weight: 500;
+}
+
+.font-condensed {
+  font-weight: 400;
+}
+
+.font-light-condensed {
+  font-weight: 300;
+}
+
+/* Section label: small-caps tracked uppercase in IOS Orange */
+.section-label {
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ios-orange);
+}
+
+/* Nav link base */
+.nav-link {
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dark-olive);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.nav-link:hover {
+  color: var(--ios-orange);
+}
+
+.nav-link.active {
+  color: var(--ios-orange);
+  border-bottom: 1.5px solid var(--ios-orange);
+  padding-bottom: 1px;
+}
+
+/* ─── Tombstone grid card ────────────────────────────────────────────────── */
+.tombstone-card {
+  border: 1px solid color-mix(in srgb, var(--cre-gray) 30%, transparent);
+  padding: 1.75rem 1.5rem;
+}
