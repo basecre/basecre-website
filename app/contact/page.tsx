@@ -10,8 +10,7 @@ const BRAND_FONT = "var(--font-helvetica-neue), 'Helvetica Neue', Helvetica, Ari
 
 function LinkedInIcon() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
-      {/* Background rectangle */}
+    <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
       <rect
         width="24"
         height="24"
@@ -19,7 +18,6 @@ function LinkedInIcon() {
         fill="#494C45"
         style={{ fill: "#494C45" }}
       />
-      {/* "in" letterforms — white on dark olive background */}
       <path
         fill="#FFFFFF"
         style={{ fill: "#FFFFFF" }}
@@ -34,9 +32,12 @@ export default function Contact() {
     <>
       <div style={{ paddingTop: "64px" }} />
 
-      <section className="max-w-7xl mx-auto px-6 lg:px-12 pt-12 pb-10 lg:pt-16 lg:pb-12">
+      <section
+        className="max-w-7xl mx-auto px-6 lg:px-12 pt-8 pb-8 lg:pt-10 lg:pb-10"
+        style={{ minHeight: 0 }}
+      >
         <div className="max-w-lg">
-          <p className="section-label mb-6">Contact</p>
+          <p className="section-label mb-4">Contact</p>
 
           <p
             style={{
@@ -45,25 +46,25 @@ export default function Contact() {
               fontSize: "1rem",
               lineHeight: 1.65,
               color: "var(--dark-olive)",
-              margin: "0 0 2.5rem 0",
+              margin: "0 0 1.5rem 0",
             }}
           >
             Base CRE welcomes inquiries from landlords, owner-users, investors,
             and industry professionals.
           </p>
 
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col">
             <a
               href="mailto:hello@basecre.com"
               style={{
-                fontFamily: BRAND_FONT,
-                fontWeight: 300,
-                fontSize: "clamp(1rem, 2vw, 1.25rem)",
-                letterSpacing: "0.04em",
-                color: "var(--dark-olive)",
+                fontWeight: 400,
+                fontSize: "1.0625rem",
+                letterSpacing: "0.01em",
+                color: "var(--near-black)",
                 textDecoration: "none",
+                paddingBottom: "0.25rem",
               }}
-              className="hover:opacity-70 transition-opacity duration-150"
+              className="hover:opacity-80 transition-opacity duration-150"
             >
               hello@basecre.com
             </a>
@@ -71,14 +72,14 @@ export default function Contact() {
             <a
               href="tel:+16024922345"
               style={{
-                fontFamily: BRAND_FONT,
-                fontWeight: 300,
-                fontSize: "clamp(1rem, 2vw, 1.25rem)",
+                fontWeight: 400,
+                fontSize: "1.0625rem",
                 letterSpacing: "0.04em",
-                color: "var(--dark-olive)",
+                color: "var(--cre-gray)",
                 textDecoration: "none",
+                paddingBottom: "0.25rem",
               }}
-              className="hover:opacity-70 transition-opacity duration-150"
+              className="hover:opacity-80 transition-opacity duration-150"
             >
               602-492-2345
             </a>
@@ -87,11 +88,7 @@ export default function Contact() {
               href="https://www.linkedin.com/company/basecre/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{
-                color: "var(--dark-olive)",
-                display: "inline-flex",
-                lineHeight: "0",
-              }}
+              style={{ color: "var(--dark-olive)", display: "inline-flex", lineHeight: "0" }}
               className="hover:opacity-80 transition-opacity duration-150"
               aria-label="Base CRE on LinkedIn"
             >
