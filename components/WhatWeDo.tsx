@@ -48,7 +48,7 @@ export default function WhatWeDo() {
           {services.map((service, i) => (
             <div
               key={service.name}
-              className="py-6 md:pr-16"
+              className="py-3 md:pr-16"
             >
               <h3
                 style={{

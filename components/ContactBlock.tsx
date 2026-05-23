@@ -22,12 +22,12 @@ export default function ContactBlock() {
             Contact
           </p>
 
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-3">
             <a
               href="mailto:hello@basecre.com"
               style={{
-                fontWeight: 700,
-                fontSize: "clamp(1.25rem, 2.5vw, 1.75rem)",
+                fontWeight: 400,
+                fontSize: "1.0625rem",
                 letterSpacing: "0.01em",
                 color: "var(--near-black)",
                 textDecoration: "none",
@@ -40,8 +40,8 @@ export default function ContactBlock() {
             <a
               href="tel:+16024922345"
               style={{
-                fontWeight: 300,
-                fontSize: "clamp(1rem, 2vw, 1.25rem)",
+                fontWeight: 400,
+                fontSize: "1.0625rem",
                 letterSpacing: "0.04em",
                 color: "var(--cre-gray)",
                 textDecoration: "none",
@@ -56,7 +56,7 @@ export default function ContactBlock() {
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "var(--cre-gray)", display: "inline-flex" }}
-              className="hover:opacity-80 transition-opacity duration-150 mt-2"
+              className="hover:opacity-80 transition-opacity duration-150"
               aria-label="Base CRE on LinkedIn"
             >
               <LinkedInIcon />
