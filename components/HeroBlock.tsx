@@ -11,7 +11,7 @@ export default function HeroBlock() {
         paddingTop: "64px", /* nav height clearance */
       }}
     >
-      <div className="max-w-7xl mx-auto w-full px-6 lg:px-12 pb-20 lg:pb-28">
+      <div className="max-w-7xl mx-auto w-full px-6 lg:px-12 pb-12 lg:pb-16">
         {/* Standard 2C logo — left-aligned */}
         <div className="mb-16 lg:mb-20">
           <Image

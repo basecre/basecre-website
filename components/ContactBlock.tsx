@@ -15,10 +15,10 @@ function LinkedInIcon() {
 
 export default function ContactBlock() {
   return (
-    <section style={{ backgroundColor: "var(--ios-navy)" }} className="py-20 lg:py-28">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+    <section style={{ backgroundColor: "var(--white)" }} className="py-12 lg:py-16">
+      <div className="max-w-7xl mx-auto px-8 lg:px-16">
         <div className="max-w-lg">
-          <p className="section-label mb-8" style={{ color: "var(--ios-orange)" }}>
+          <p className="section-label mb-6" style={{ color: "var(--ios-orange)" }}>
             Contact
           </p>
 
@@ -29,7 +29,7 @@ export default function ContactBlock() {
                 fontWeight: 700,
                 fontSize: "clamp(1.25rem, 2.5vw, 1.75rem)",
                 letterSpacing: "0.01em",
-                color: "var(--white)",
+                color: "var(--near-black)",
                 textDecoration: "none",
               }}
               className="hover:opacity-80 transition-opacity duration-150"
@@ -51,9 +51,8 @@ export default function ContactBlock() {
               602-492-2345
             </a>
 
-            {/* TODO: Replace href with Base CRE LinkedIn company page URL when available */}
             <a
-              href="[LINKEDIN_URL_PLACEHOLDER]"
+              href="https://www.linkedin.com/company/basecre/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "var(--cre-gray)", display: "inline-flex" }}

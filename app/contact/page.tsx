@@ -84,9 +84,8 @@ export default function Contact() {
               602-492-2345
             </a>
 
-            {/* TODO: Replace href with Base CRE LinkedIn company page URL when available */}
             <a
-              href="[LINKEDIN_URL_PLACEHOLDER]"
+              href="https://www.linkedin.com/company/basecre/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "var(--cre-gray)", display: "inline-flex" }}

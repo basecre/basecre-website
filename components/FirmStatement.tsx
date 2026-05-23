@@ -4,7 +4,7 @@ interface FirmStatementProps {
 
 export default function FirmStatement({ copy }: FirmStatementProps) {
   return (
-    <section className="max-w-7xl mx-auto px-6 lg:px-12 pt-20 lg:pt-28 pb-10 lg:pb-14">
+    <section className="max-w-7xl mx-auto px-8 lg:px-16 pt-12 lg:pt-16 pb-6 lg:pb-8">
       <div className="max-w-3xl">
         <p
           style={{

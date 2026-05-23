@@ -4,9 +4,9 @@ export default function TransactionGrid() {
   return (
     <section
       style={{ backgroundColor: "var(--white)" }}
-      className="pt-10 lg:pt-14 pb-20 lg:pb-28"
+      className="pt-6 lg:pt-8 pb-12 lg:pb-16"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-8 lg:px-16">
         {/* Section label */}
         <p className="section-label mb-4">Representative Transactions</p>
 
@@ -19,7 +19,7 @@ export default function TransactionGrid() {
             lineHeight: 1.6,
             color: "var(--dark-olive)",
             maxWidth: "560px",
-            margin: "0 0 3.5rem 0",
+            margin: "0 0 2rem 0",
           }}
         >
           Base CRE and its principals have advised and transacted across the

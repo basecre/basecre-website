@@ -21,9 +21,9 @@ export default function WhatWeDo() {
   return (
     <section
       style={{ backgroundColor: "var(--white)" }}
-      className="pt-10 lg:pt-14 pb-20 lg:pb-28"
+      className="pt-6 lg:pt-8 pb-12 lg:pb-16"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-8 lg:px-16">
         {/* Section label */}
         <p className="section-label mb-4">What We Do</p>
 
@@ -35,7 +35,7 @@ export default function WhatWeDo() {
             lineHeight: 1.6,
             color: "var(--dark-olive)",
             maxWidth: "42rem",
-            margin: "0 0 4rem 0",
+            margin: "0 0 2rem 0",
           }}
         >
           Base CRE provides advisory services across the full transaction
@@ -43,20 +43,12 @@ export default function WhatWeDo() {
           primary focus on industrial real estate in the Arizona market.
         </p>
 
-        {/* Services grid — 2 columns, border-ruled rows */}
-        <div
-          className="grid grid-cols-1 md:grid-cols-2"
-          style={{
-            borderBottom: "1px solid color-mix(in srgb, var(--cre-gray) 30%, transparent)",
-          }}
-        >
+        {/* Services grid — 2 columns */}
+        <div className="grid grid-cols-1 md:grid-cols-2">
           {services.map((service, i) => (
             <div
               key={service.name}
-              className="py-10 md:pr-16"
-              style={{
-                borderTop: "1px solid color-mix(in srgb, var(--cre-gray) 30%, transparent)",
-              }}
+              className="py-6 md:pr-16"
             >
               <h3
                 style={{
