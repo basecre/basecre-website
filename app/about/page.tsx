@@ -2,9 +2,9 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About | Base CRE",
+  title: "About | Base CRE | Industrial Real Estate Brokerage",
   description:
-    "Base CRE is an industrial real estate advisory firm founded by an operator. Learn about Trevor Pratte and the firm's approach.",
+    "Base CRE was founded by an operator with direct experience as an owner, developer, and capital allocator. Industrial real estate advisory focused exclusively on the Arizona market.",
 };
 
 const BRAND_FONT = "var(--font-helvetica-neue), 'Helvetica Neue', Helvetica, Arial, sans-serif";

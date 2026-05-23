@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Base CRE",
-  description: "Privacy Policy for Base CRE LLC.",
+  description: "Privacy Policy for Base CRE LLC and basecre.com.",
 };
 
 export default function Privacy() {

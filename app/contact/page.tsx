@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Base CRE",
+  title: "Contact | Base CRE | Industrial Real Estate Brokerage",
   description:
-    "Get in touch with Base CRE. Industrial real estate advisory for the Arizona market.",
+    "Contact Base CRE for industrial real estate advisory services in Arizona. Reach us at hello@basecre.com or 602-492-2345.",
 };
 
 const BRAND_FONT = "var(--font-helvetica-neue), 'Helvetica Neue', Helvetica, Arial, sans-serif";
