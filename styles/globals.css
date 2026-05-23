@@ -24,6 +24,7 @@
 /* Font is loaded via next/font/local in app/layout.tsx, which sets          */
 /* --font-helvetica-neue on <html> via a generated class.                    */
 html {
+  height: auto;
   font-family: var(--font-helvetica-neue), "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--dark-olive);
   background-color: var(--white);
