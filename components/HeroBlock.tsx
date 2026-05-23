@@ -11,7 +11,7 @@ export default function HeroBlock() {
         paddingTop: "64px", /* nav height clearance */
       }}
     >
-      <div className="max-w-7xl mx-auto w-full px-6 lg:px-12 pb-8 lg:pb-10">
+      <div className="max-w-7xl mx-auto w-full px-6 lg:px-12 pb-4 lg:pb-5">
         {/* Standard 2C logo — left-aligned */}
         <div className="mb-16 lg:mb-20">
           <Image
@@ -20,7 +20,7 @@ export default function HeroBlock() {
             width={160}
             height={157}
             priority
-            style={{ width: "auto", height: "240px" }}
+            style={{ width: "auto", height: "300px" }}
           />
         </div>
 
