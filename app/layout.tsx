@@ -1,8 +1,20 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import localFont from "next/font/local";
 import "../styles/globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+
+const helveticaNeue = localFont({
+  src: [
+    { path: "../public/fonts/HelveticaNeueLTStd-LtCn.otf", weight: "300", style: "normal" },
+    { path: "../public/fonts/HelveticaNeueLTStd-Cn.otf",   weight: "400", style: "normal" },
+    { path: "../public/fonts/HelveticaNeueLTStd-MdCn.otf", weight: "500", style: "normal" },
+    { path: "../public/fonts/HelveticaNeueLTStd-BdCn.otf", weight: "700", style: "normal" },
+  ],
+  variable: "--font-helvetica-neue",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Base CRE | Industrial Real Estate Advisory",
@@ -17,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={helveticaNeue.variable}>
       <head>
         {/* Google Analytics 4 — G-QMWN71DT17 */}
         <Script

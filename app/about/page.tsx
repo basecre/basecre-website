@@ -7,8 +7,7 @@ export const metadata: Metadata = {
     "Base CRE is an industrial real estate advisory firm founded by an operator. Learn about Trevor Pratte and the firm's approach.",
 };
 
-const BRAND_FONT =
-  '"HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, sans-serif';
+const BRAND_FONT = "var(--font-helvetica-neue), 'Helvetica Neue', Helvetica, Arial, sans-serif";
 
 export default function About() {
   return (

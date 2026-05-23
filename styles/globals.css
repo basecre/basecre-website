@@ -18,46 +18,13 @@
   --color-near-black: var(--near-black);
   --color-ios-navy: var(--ios-navy);
   --color-white: var(--white);
-
-  --font-helvetica-neue: "HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-/* ─── Font Faces ─────────────────────────────────────────────────────────── */
-@font-face {
-  font-family: "HelveticaNeueLTStd";
-  src: url("/fonts/HelveticaNeueLTStd-BdCn.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "HelveticaNeueLTStd";
-  src: url("/fonts/HelveticaNeueLTStd-MdCn.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "HelveticaNeueLTStd";
-  src: url("/fonts/HelveticaNeueLTStd-Cn.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "HelveticaNeueLTStd";
-  src: url("/fonts/HelveticaNeueLTStd-LtCn.otf") format("opentype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
 }
 
 /* ─── Base Styles ────────────────────────────────────────────────────────── */
+/* Font is loaded via next/font/local in app/layout.tsx, which sets          */
+/* --font-helvetica-neue on <html> via a generated class.                    */
 html {
-  font-family: "HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--font-helvetica-neue), "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--dark-olive);
   background-color: var(--white);
   -webkit-font-smoothing: antialiased;
