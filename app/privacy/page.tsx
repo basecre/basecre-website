@@ -32,7 +32,7 @@ export default function Privacy() {
             margin: "0 0 3rem 0",
           }}
         >
-          Last updated: May 7, 2026
+          Last updated: May 23, 2026
         </p>
 
         <div
@@ -207,6 +207,103 @@ export default function Privacy() {
                 are a participant
               </li>
             </ul>
+          </section>
+
+          <section>
+            <h2
+              style={{
+                fontWeight: 700,
+                fontSize: "1rem",
+                letterSpacing: "0.02em",
+                color: "var(--near-black)",
+                margin: "0 0 0.75rem 0",
+              }}
+            >
+              Cookies and Analytics
+            </h2>
+            <p style={{ margin: 0 }}>
+              This site uses Google Analytics, a web analytics service provided
+              by Google LLC, to collect anonymous information about how visitors
+              use the site. Google Analytics uses cookies &mdash; small text
+              files placed on your device &mdash; to collect standard internet
+              log information and visitor behavior data. This information is
+              processed in a way that does not identify individuals. We do not
+              make any attempt to find out the identities of visitors to this
+              site.
+            </p>
+            <p style={{ margin: "1rem 0 0 0" }}>
+              The information collected includes pages visited, time spent on
+              the site, approximate geographic location (country and region
+              level), device and browser type, and how visitors arrived at the
+              site. This data is used solely to understand site usage and
+              improve the visitor experience.
+            </p>
+            <p style={{ margin: "1rem 0 0 0" }}>
+              To opt out of Google Analytics tracking, you may install the
+              Google Analytics Opt-out Browser Add-on, available at
+              tools.google.com/dlpage/gaoptout. You may also adjust your
+              browser settings to block or delete cookies at any time. Note
+              that blocking cookies may affect the functionality of some
+              websites.
+            </p>
+            <p style={{ margin: "1rem 0 0 0" }}>
+              We do not use cookies for advertising, retargeting, or any
+              purpose other than anonymous site analytics.
+            </p>
+          </section>
+
+          <section>
+            <h2
+              style={{
+                fontWeight: 700,
+                fontSize: "1rem",
+                letterSpacing: "0.02em",
+                color: "var(--near-black)",
+                margin: "0 0 0.75rem 0",
+              }}
+            >
+              California Residents &mdash; Your Privacy Rights
+            </h2>
+            <p style={{ margin: 0 }}>
+              If you are a California resident, the California Consumer Privacy
+              Act (CCPA) provides you with specific rights regarding your
+              personal information.
+            </p>
+            <p style={{ margin: "1rem 0 0 0" }}>
+              <strong>What we collect.</strong> We collect the following
+              categories of personal information: identifiers (name, email
+              address, phone number) when you contact us directly; internet or
+              other electronic network activity information (pages visited,
+              browser type, approximate location) collected automatically via
+              Google Analytics.
+            </p>
+            <p style={{ margin: "1rem 0 0 0" }}>
+              <strong>How we use it.</strong> Personal information you provide
+              directly is used solely to respond to your inquiry or facilitate
+              a real estate transaction. Automatically collected analytics data
+              is used only to understand site usage.
+            </p>
+            <p style={{ margin: "1rem 0 0 0" }}>
+              <strong>We do not sell your personal information.</strong> Base
+              CRE does not sell, rent, or share your personal information with
+              third parties for their commercial or marketing purposes.
+              Analytics data shared with Google is used only to provide
+              analytics services to us and is governed by Google&rsquo;s
+              privacy policy.
+            </p>
+            <p style={{ margin: "1rem 0 0 0" }}>
+              <strong>Your rights.</strong> California residents may request to
+              know what personal information we have collected about them,
+              request deletion of their personal information, and opt out of
+              any sale or sharing of personal information (though we do not
+              engage in such practices). To exercise any of these rights,
+              contact us at hello@basecre.com. We will respond to verified
+              requests within 45 days.
+            </p>
+            <p style={{ margin: "1rem 0 0 0" }}>
+              We will not discriminate against you for exercising any of your
+              CCPA rights.
+            </p>
           </section>
 
           <section>

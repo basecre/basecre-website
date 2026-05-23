@@ -10,21 +10,6 @@ export default function TransactionGrid() {
         {/* Section label */}
         <p className="section-label mb-4">Representative Transactions</p>
 
-        {/* Intro */}
-        <p
-          style={{
-            fontWeight: 300,
-            fontSize: "1.0625rem",
-            lineHeight: 1.6,
-            color: "var(--dark-olive)",
-            maxWidth: "560px",
-            margin: "0 0 2rem 0",
-          }}
-        >
-          Base CRE and its principals have advised and transacted across the
-          industrial sector throughout Arizona.
-        </p>
-
         {/* Tombstone grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {transactions.map((t, i) => (

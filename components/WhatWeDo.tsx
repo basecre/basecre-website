@@ -4,16 +4,16 @@ const services = [
     body: "Contractor yards, equipment staging, trucking and fleet operations, materials storage, and rail-served properties. Base CRE has direct operating experience in this asset class as an owner, developer, and tenant, and understands how these facilities function from the ground up.",
   },
   {
+    name: "Manufacturing",
+    body: "Light and heavy manufacturing, fabrication, processing, and production facilities across the Arizona market. Arizona's expanding manufacturing base is generating sustained demand for purpose-built and conversion facilities. Base CRE understands the operational requirements that separate a functional facility from one that merely looks the part.",
+  },
+  {
+    name: "Warehouse and Distribution",
+    body: "Regional and last-mile distribution, bulk storage, and logistics facilities. Single-tenant assets where location, clear height, dock configuration, and yard depth drive value. Base CRE advises owners and occupiers on acquisitions, dispositions, and leasing across all warehouse and distribution subtypes.",
+  },
+  {
     name: "Industrial Service Facilities",
-    body: "Fleet repair and maintenance, service and distribution operations, and light manufacturing. Single-tenant, operationally intensive assets that require an advisor who understands the business behind the real estate.",
-  },
-  {
-    name: "Single-Tenant Industrial",
-    body: "Warehouse, distribution, and manufacturing facilities leased or owned by a single occupant. Base CRE focuses on single-tenant assets across all industrial subtypes, properties where the operator and the real estate are inseparable.",
-  },
-  {
-    name: "Investor Advisory",
-    body: "Acquisition and disposition advisory for private equity funds, family offices, and high-net-worth investors targeting industrial assets in the Arizona market.",
+    body: "Fleet repair and maintenance, service and distribution operations, and light manufacturing. Single-tenant, operationally intensive assets that require an advisor who understands the business behind the real estate and the infrastructure demands that come with it.",
   },
 ];
 
@@ -26,22 +26,6 @@ export default function WhatWeDo() {
       <div className="max-w-7xl mx-auto px-8 lg:px-16">
         {/* Section label */}
         <p className="section-label mb-4">What We Do</p>
-
-        {/* Intro */}
-        <p
-          style={{
-            fontWeight: 300,
-            fontSize: "1.0625rem",
-            lineHeight: 1.6,
-            color: "var(--dark-olive)",
-            maxWidth: "42rem",
-            margin: "0 0 2rem 0",
-          }}
-        >
-          Base CRE provides advisory services across the full transaction
-          lifecycle, including acquisitions, dispositions, and leasing, with a
-          primary focus on industrial real estate in the Arizona market.
-        </p>
 
         {/* Services grid — 2 columns */}
         <div className="grid grid-cols-1 md:grid-cols-2">
