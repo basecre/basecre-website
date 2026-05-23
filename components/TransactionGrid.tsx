@@ -25,21 +25,21 @@ export default function TransactionGrid() {
                   fontSize: "1.0625rem",
                   letterSpacing: "0.01em",
                   color: "var(--near-black)",
-                  margin: "0 0 0.5rem 0",
+                  margin: "0 0 0.25rem 0",
                 }}
               >
                 {t.propertyType}
               </p>
 
-              {/* Transaction type — orange accent */}
+              {/* Transaction type */}
               <p
                 style={{
-                  fontWeight: 500,
+                  fontWeight: 300,
                   fontSize: "0.6875rem",
                   letterSpacing: "0.16em",
                   textTransform: "uppercase",
-                  color: "var(--ios-orange)",
-                  margin: "0 0 0.5rem 0",
+                  color: "var(--cre-gray)",
+                  margin: "0 0 0.25rem 0",
                 }}
               >
                 {t.transactionType}
@@ -50,7 +50,7 @@ export default function TransactionGrid() {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  gap: "0.25rem",
+                  gap: "0.125rem",
                 }}
               >
                 <p
@@ -69,7 +69,7 @@ export default function TransactionGrid() {
                     fontWeight: 300,
                     fontSize: "0.9375rem",
                     letterSpacing: "0.04em",
-                    color: "var(--dark-olive)",
+                    color: "var(--cre-gray)",
                     margin: 0,
                   }}
                 >
