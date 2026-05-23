@@ -21,8 +21,8 @@ export default function TransactionGrid() {
               {/* Property type — headline */}
               <p
                 style={{
-                  fontWeight: 700,
-                  fontSize: "0.9375rem",
+                  fontWeight: 800,
+                  fontSize: "1.0625rem",
                   letterSpacing: "0.01em",
                   color: "var(--near-black)",
                   margin: "0 0 0.5rem 0",
@@ -39,7 +39,7 @@ export default function TransactionGrid() {
                   letterSpacing: "0.16em",
                   textTransform: "uppercase",
                   color: "var(--ios-orange)",
-                  margin: "0 0 1.25rem 0",
+                  margin: "0 0 0.5rem 0",
                 }}
               >
                 {t.transactionType}
@@ -50,30 +50,30 @@ export default function TransactionGrid() {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  gap: "0.375rem",
+                  gap: "0.25rem",
                 }}
               >
                 <p
                   style={{
                     fontWeight: 300,
-                    fontSize: "0.8125rem",
-                    letterSpacing: "0.04em",
-                    color: "var(--dark-olive)",
-                    margin: 0,
-                  }}
-                >
-                  {t.location}
-                </p>
-                <p
-                  style={{
-                    fontWeight: 300,
-                    fontSize: "0.8125rem",
+                    fontSize: "0.9375rem",
                     letterSpacing: "0.04em",
                     color: "var(--cre-gray)",
                     margin: 0,
                   }}
                 >
                   {t.size}
+                </p>
+                <p
+                  style={{
+                    fontWeight: 300,
+                    fontSize: "0.9375rem",
+                    letterSpacing: "0.04em",
+                    color: "var(--dark-olive)",
+                    margin: 0,
+                  }}
+                >
+                  {t.location}
                 </p>
               </div>
             </div>
