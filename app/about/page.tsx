@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     "Base CRE is an industrial real estate advisory firm founded by an operator. Learn about Trevor Pratte and the firm's approach.",
 };
 
+const BRAND_FONT =
+  '"HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, sans-serif';
+
 export default function About() {
   return (
     <>
@@ -19,7 +22,7 @@ export default function About() {
           <p className="section-label mb-6">About the Firm</p>
           <p
             style={{
-              fontFamily: "inherit",
+              fontFamily: BRAND_FONT,
               fontWeight: 300,
               fontSize: "clamp(1.0625rem, 1.5vw, 1.25rem)",
               lineHeight: 1.6,
@@ -39,7 +42,7 @@ export default function About() {
       </section>
 
       {/* Trevor Pratte — split layout */}
-      <section className="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-24 lg:pb-32">
+      <section className="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12 lg:pb-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Headshot — left column */}
           <div className="relative w-full" style={{ maxWidth: "520px" }}>
@@ -63,7 +66,7 @@ export default function About() {
             <p className="section-label mb-4">Founder &amp; Principal</p>
             <h1
               style={{
-                fontFamily: "inherit",
+                fontFamily: BRAND_FONT,
                 fontWeight: 700,
                 fontSize: "clamp(2rem, 4vw, 3.25rem)",
                 lineHeight: 1.0,
@@ -91,7 +94,7 @@ export default function About() {
                 <p
                   key={i}
                   style={{
-                    fontFamily: "inherit",
+                    fontFamily: BRAND_FONT,
                     fontWeight: 300,
                     fontSize: "0.9375rem",
                     lineHeight: 1.65,
