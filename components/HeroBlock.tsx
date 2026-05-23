@@ -4,11 +4,11 @@ export default function HeroBlock() {
   return (
     <section
       id="hero"
-      className="relative flex flex-col justify-end"
+      className="relative flex flex-col"
       style={{
         backgroundColor: "var(--white)",
         minHeight: "75svh",
-        paddingTop: "64px", /* nav height clearance */
+        paddingTop: "96px",
       }}
     >
       <div className="max-w-7xl mx-auto w-full px-6 lg:px-12 pb-4 lg:pb-5">
