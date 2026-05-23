@@ -13,7 +13,7 @@ export default function Footer() {
       className="border-t"
       style={{ borderColor: "color-mix(in srgb, var(--cre-gray) 25%, transparent)" }}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-10">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-6">
         {/* Nav links */}
         <nav className="flex flex-wrap gap-6 items-center">
           {navItems.map((item) =>
@@ -68,7 +68,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div
-          className="mt-8 pt-6 border-t"
+          className="mt-5 pt-4 border-t"
           style={{
             borderColor: "color-mix(in srgb, var(--cre-gray) 15%, transparent)",
           }}

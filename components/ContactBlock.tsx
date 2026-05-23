@@ -22,7 +22,7 @@ export default function ContactBlock() {
             Contact
           </p>
 
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col">
             <a
               href="mailto:hello@basecre.com"
               style={{
@@ -31,6 +31,7 @@ export default function ContactBlock() {
                 letterSpacing: "0.01em",
                 color: "var(--near-black)",
                 textDecoration: "none",
+                paddingBottom: "0.25rem",
               }}
               className="hover:opacity-80 transition-opacity duration-150"
             >
@@ -45,6 +46,7 @@ export default function ContactBlock() {
                 letterSpacing: "0.04em",
                 color: "var(--cre-gray)",
                 textDecoration: "none",
+                paddingBottom: "0.25rem",
               }}
               className="hover:opacity-80 transition-opacity duration-150"
             >
@@ -55,7 +57,7 @@ export default function ContactBlock() {
               href="https://www.linkedin.com/company/basecre/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "var(--cre-gray)", display: "inline-flex" }}
+              style={{ color: "var(--dark-olive)", display: "inline-flex", lineHeight: "0" }}
               className="hover:opacity-80 transition-opacity duration-150"
               aria-label="Base CRE on LinkedIn"
             >

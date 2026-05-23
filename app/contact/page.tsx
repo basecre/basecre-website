@@ -88,8 +88,8 @@ export default function Contact() {
               href="https://www.linkedin.com/company/basecre/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "var(--cre-gray)", display: "inline-flex" }}
-              className="hover:opacity-80 transition-opacity duration-150 mt-2"
+              style={{ color: "var(--dark-olive)", display: "inline-flex", lineHeight: "0" }}
+              className="hover:opacity-80 transition-opacity duration-150"
               aria-label="Base CRE on LinkedIn"
             >
               <LinkedInIcon />
