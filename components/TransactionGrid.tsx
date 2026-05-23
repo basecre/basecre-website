@@ -18,40 +18,34 @@ export default function TransactionGrid() {
               className="tombstone-card bg-white"
               style={{ backgroundColor: "var(--white)" }}
             >
-              {/* Property type — headline */}
-              <p
-                style={{
-                  fontWeight: 700,
-                  fontSize: "1rem",
-                  letterSpacing: "0.01em",
-                  color: "var(--near-black)",
-                  margin: "0 0 0.25rem 0",
-                }}
-              >
-                {t.propertyType}
-              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.25rem" }}>
+                {/* Property type — headline */}
+                <p
+                  style={{
+                    fontWeight: 700,
+                    fontSize: "1rem",
+                    letterSpacing: "0.01em",
+                    color: "var(--near-black)",
+                    margin: 0,
+                  }}
+                >
+                  {t.propertyType}
+                </p>
 
-              {/* Transaction type */}
-              <p
-                style={{
-                  fontWeight: 400,
-                  fontSize: "0.9375rem",
-                  letterSpacing: "0.04em",
-                  color: "var(--dark-olive)",
-                  margin: "0 0 0.25rem 0",
-                }}
-              >
-                {t.transactionType}
-              </p>
+                {/* Transaction type */}
+                <p
+                  style={{
+                    fontWeight: 400,
+                    fontSize: "0.9375rem",
+                    letterSpacing: "0.04em",
+                    color: "var(--dark-olive)",
+                    margin: 0,
+                  }}
+                >
+                  {t.transactionType}
+                </p>
 
-              {/* Details */}
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "0.125rem",
-                }}
-              >
+                {/* Size */}
                 <p
                   style={{
                     fontWeight: 300,
@@ -63,6 +57,8 @@ export default function TransactionGrid() {
                 >
                   {t.size}
                 </p>
+
+                {/* Location */}
                 <p
                   style={{
                     fontWeight: 300,
