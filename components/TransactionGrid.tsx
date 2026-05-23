@@ -48,8 +48,6 @@ export default function TransactionGrid() {
               {/* Details */}
               <div
                 style={{
-                  borderTop: "1px solid color-mix(in srgb, var(--cre-gray) 30%, transparent)",
-                  paddingTop: "1rem",
                   display: "flex",
                   flexDirection: "column",
                   gap: "0.375rem",
