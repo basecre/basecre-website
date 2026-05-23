@@ -17,10 +17,19 @@ const helveticaNeue = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Base CRE | Industrial Real Estate Advisory",
+  title: "Base CRE | Industrial Real Estate Brokerage | Arizona",
   description:
-    "Base CRE advises owners, investors, and operators on the acquisition, disposition, and leasing of industrial real estate across Arizona. Specializing in IOS, ISF, and single-tenant industrial assets.",
+    "Base CRE advises owners, investors, and operators on industrial real estate across Arizona. Specializing in Industrial Outdoor Storage, manufacturing, warehouse, and Industrial Service Facilities.",
   metadataBase: new URL("https://basecre.com"),
+  openGraph: {
+    title: "Base CRE | Industrial Real Estate Brokerage | Arizona",
+    description:
+      "Base CRE advises owners, investors, and operators on industrial real estate across Arizona. Specializing in Industrial Outdoor Storage, manufacturing, warehouse, and Industrial Service Facilities.",
+    url: "https://basecre.com",
+    siteName: "Base CRE",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -31,6 +40,35 @@ export default function RootLayout({
   return (
     <html lang="en" className={helveticaNeue.variable}>
       <head>
+        {/* JSON-LD schema */}
+        <Script
+          id="schema-local-business"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "RealEstateAgent",
+              name: "Base CRE",
+              description:
+                "Industrial real estate brokerage specializing in Industrial Outdoor Storage, manufacturing, warehouse and distribution, and Industrial Service Facilities across the Arizona market.",
+              url: "https://basecre.com",
+              telephone: "602-492-2345",
+              email: "hello@basecre.com",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Scottsdale",
+                addressRegion: "AZ",
+                addressCountry: "US",
+              },
+              areaServed: {
+                "@type": "State",
+                name: "Arizona",
+              },
+            }),
+          }}
+        />
+
         {/* Google Analytics 4 — G-QMWN71DT17 */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-QMWN71DT17"
