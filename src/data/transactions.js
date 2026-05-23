@@ -1,38 +1,74 @@
 export const transactions = [
   {
     propertyType: "Industrial Outdoor Storage",
-    transactionType: "Acquisition",
-    location: "Phoenix, AZ",
-    size: "2.4 Acres",
-  },
-  {
-    propertyType: "Industrial Service Facility",
-    transactionType: "Disposition",
-    location: "Scottsdale, AZ",
-    size: "18,500 SF",
-  },
-  {
-    propertyType: "Single-Tenant Industrial",
     transactionType: "Lease",
-    location: "Tempe, AZ",
-    size: "24,000 SF",
+    size: "2.91 AC",
+    location: "Phoenix, AZ"
+  },
+  {
+    propertyType: "Manufacturing",
+    transactionType: "Disposition",
+    size: "31,000 SF",
+    location: "Tempe, AZ"
+  },
+  {
+    propertyType: "Manufacturing",
+    transactionType: "Disposition",
+    size: "19,785 SF",
+    location: "Tempe, AZ"
+  },
+  {
+    propertyType: "Warehouse",
+    transactionType: "Lease",
+    size: "9,586 SF",
+    location: "Phoenix, AZ"
   },
   {
     propertyType: "Industrial Outdoor Storage",
-    transactionType: "Disposition",
-    location: "Mesa, AZ",
-    size: "3.1 Acres",
-  },
-  {
-    propertyType: "Single-Tenant Industrial",
-    transactionType: "Acquisition",
-    location: "Chandler, AZ",
-    size: "31,200 SF",
-  },
-  {
-    propertyType: "Industrial Service Facility",
     transactionType: "Lease",
-    location: "Gilbert, AZ",
-    size: "12,800 SF",
+    size: "3.22 AC",
+    location: "Tucson, AZ"
   },
+  {
+    propertyType: "Warehouse",
+    transactionType: "Disposition",
+    size: "11,636 SF",
+    location: "Tempe, AZ"
+  },
+  {
+    propertyType: "Office",
+    transactionType: "Lease",
+    size: "7,625 SF",
+    location: "Phoenix, AZ"
+  },
+  {
+    propertyType: "Warehouse",
+    transactionType: "Acquisition",
+    size: "6,000 SF",
+    location: "Peoria, AZ"
+  },
+  {
+    propertyType: "Industrial Outdoor Storage",
+    transactionType: "Lease",
+    size: "2.98 AC",
+    location: "Tucson, AZ"
+  },
+  {
+    propertyType: "Warehouse",
+    transactionType: "Disposition",
+    size: "12,000 SF",
+    location: "Tempe, AZ"
+  },
+  {
+    propertyType: "Industrial Land",
+    transactionType: "Acquisition",
+    size: "8 AC",
+    location: "Glendale, AZ"
+  },
+  {
+    propertyType: "Industrial Outdoor Storage",
+    transactionType: "Lease",
+    size: "1.46 AC",
+    location: "Phoenix, AZ"
+  }
 ];
