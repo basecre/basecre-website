@@ -21,7 +21,7 @@ export default function WhatWeDo() {
   return (
     <section
       style={{ backgroundColor: "var(--white)" }}
-      className="pt-6 lg:pt-8 pb-12 lg:pb-16"
+      className="py-8 lg:py-10"
     >
       <div className="max-w-7xl mx-auto px-8 lg:px-16">
         {/* Section label */}

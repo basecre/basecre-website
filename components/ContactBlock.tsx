@@ -15,10 +15,10 @@ function LinkedInIcon() {
 
 export default function ContactBlock() {
   return (
-    <section style={{ backgroundColor: "var(--white)" }} className="py-12 lg:py-16">
+    <section style={{ backgroundColor: "var(--white)" }} className="py-8 lg:py-10">
       <div className="max-w-7xl mx-auto px-8 lg:px-16">
         <div className="max-w-lg">
-          <p className="section-label mb-6" style={{ color: "var(--ios-orange)" }}>
+          <p className="section-label mb-4" style={{ color: "var(--ios-orange)" }}>
             Contact
           </p>
 
