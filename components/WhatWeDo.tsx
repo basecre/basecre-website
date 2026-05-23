@@ -25,7 +25,7 @@ export default function WhatWeDo() {
     >
       <div className="max-w-7xl mx-auto px-8 lg:px-16">
         {/* Section label */}
-        <p className="section-label mb-4">What We Do</p>
+        <p className="section-label mb-4" style={{ fontSize: "1rem" }}>What We Do</p>
 
         {/* Services grid — 2 columns */}
         <div className="grid grid-cols-1 md:grid-cols-2">

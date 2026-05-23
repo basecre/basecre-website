@@ -45,7 +45,7 @@ export default function HeroBlock() {
             fontSize: "clamp(1rem, 2vw, 1.25rem)",
             letterSpacing: "0.18em",
             textTransform: "uppercase",
-            color: "var(--cre-gray)",
+            color: "var(--dark-olive)",
             marginTop: "2rem",
             marginBottom: 0,
           }}

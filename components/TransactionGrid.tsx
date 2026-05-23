@@ -36,9 +36,8 @@ export default function TransactionGrid() {
                 style={{
                   fontWeight: 400,
                   fontSize: "0.9375rem",
-                  letterSpacing: "0.12em",
-                  textTransform: "uppercase",
-                  color: "var(--cre-gray)",
+                  letterSpacing: "0.04em",
+                  color: "var(--dark-olive)",
                   margin: "0 0 0.25rem 0",
                 }}
               >
@@ -58,7 +57,7 @@ export default function TransactionGrid() {
                     fontWeight: 300,
                     fontSize: "0.875rem",
                     letterSpacing: "0.04em",
-                    color: "var(--cre-gray)",
+                    color: "var(--dark-olive)",
                     margin: 0,
                   }}
                 >
@@ -69,7 +68,7 @@ export default function TransactionGrid() {
                     fontWeight: 300,
                     fontSize: "0.875rem",
                     letterSpacing: "0.04em",
-                    color: "var(--cre-gray)",
+                    color: "var(--dark-olive)",
                     margin: 0,
                   }}
                 >
