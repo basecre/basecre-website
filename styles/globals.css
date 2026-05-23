@@ -23,8 +23,12 @@
 /* ─── Base Styles ────────────────────────────────────────────────────────── */
 /* Font is loaded via next/font/local in app/layout.tsx, which sets          */
 /* --font-helvetica-neue on <html> via a generated class.                    */
+html,
+body {
+  min-height: 100vh;
+}
+
 html {
-  height: auto;
   font-family: var(--font-helvetica-neue), "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--dark-olive);
   background-color: var(--white);
@@ -35,12 +39,12 @@ html {
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-html,
-body,
 main {
-  height: auto;
+  flex-grow: 1;
   min-height: 0;
 }
 
