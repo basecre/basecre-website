@@ -26,9 +26,7 @@ export default function TransactionGrid() {
         </p>
 
         {/* Tombstone grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px"
-          style={{ backgroundColor: "color-mix(in srgb, var(--cre-gray) 25%, transparent)" }}
-        >
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {transactions.map((t, i) => (
             <div
               key={i}
