@@ -21,8 +21,8 @@ export default function TransactionGrid() {
               {/* Property type — headline */}
               <p
                 style={{
-                  fontWeight: 800,
-                  fontSize: "1.0625rem",
+                  fontWeight: 700,
+                  fontSize: "1rem",
                   letterSpacing: "0.01em",
                   color: "var(--near-black)",
                   margin: "0 0 0.25rem 0",
@@ -34,9 +34,9 @@ export default function TransactionGrid() {
               {/* Transaction type */}
               <p
                 style={{
-                  fontWeight: 300,
-                  fontSize: "0.6875rem",
-                  letterSpacing: "0.16em",
+                  fontWeight: 400,
+                  fontSize: "0.9375rem",
+                  letterSpacing: "0.12em",
                   textTransform: "uppercase",
                   color: "var(--cre-gray)",
                   margin: "0 0 0.25rem 0",
@@ -56,7 +56,7 @@ export default function TransactionGrid() {
                 <p
                   style={{
                     fontWeight: 300,
-                    fontSize: "0.9375rem",
+                    fontSize: "0.875rem",
                     letterSpacing: "0.04em",
                     color: "var(--cre-gray)",
                     margin: 0,
@@ -67,7 +67,7 @@ export default function TransactionGrid() {
                 <p
                   style={{
                     fontWeight: 300,
-                    fontSize: "0.9375rem",
+                    fontSize: "0.875rem",
                     letterSpacing: "0.04em",
                     color: "var(--cre-gray)",
                     margin: 0,
