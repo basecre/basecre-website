@@ -12,7 +12,7 @@ const BRAND_FONT = "var(--font-helvetica-neue), 'Helvetica Neue', Helvetica, Ari
 export default function About() {
   return (
     <>
-      {/* Page header — matches nav height offset */}
+      {/* Page header -- matches nav height offset */}
       <div style={{ paddingTop: "64px" }} />
 
       {/* Firm Statement */}
@@ -31,7 +31,7 @@ export default function About() {
           >
             Base CRE is an industrial real estate brokerage focused exclusively
             on the Arizona market, working with landlords, owner-users, and
-            institutional investors. The firm was founded by an operator &mdash;
+            institutional investors. The firm was founded by an operator --
             someone who has been on the client&rsquo;s side of the table as an
             owner, developer, and capital allocator. That perspective is the
             foundation of every engagement.
@@ -39,27 +39,27 @@ export default function About() {
         </div>
       </section>
 
-      {/* Trevor Pratte — split layout */}
+      {/* Trevor Pratte -- split layout */}
       <section className="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12 lg:pb-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
-          {/* Headshot — left column */}
-          <div className="relative w-full" style={{ maxWidth: "520px" }}>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start lg:items-stretch">
+          {/* Headshot -- left column */}
+          <div
+            className="relative overflow-hidden aspect-[4/5] lg:aspect-auto"
+            style={{ maxWidth: "520px" }}
+          >
             <Image
               src="/photos/headshot/trevor-pratte-headshot.jpg"
               alt="Trevor Pratte, Founder and Principal, Base CRE"
-              width={520}
-              height={640}
+              fill
               priority
-              className="w-full"
               style={{
-                display: "block",
                 objectFit: "cover",
                 objectPosition: "center top",
               }}
             />
           </div>
 
-          {/* Bio — right column */}
+          {/* Bio -- right column */}
           <div>
             <p className="section-label mb-4">Founder &amp; Designated Broker</p>
             <h1
@@ -95,7 +95,7 @@ export default function About() {
               >
                 Trevor Pratte is an Arizona native who spent the first two
                 decades of his career as an operator before crossing into real
-                estate brokerage &mdash; managing construction yard inventories
+                estate brokerage -- managing construction yard inventories
                 for Pulte Building Systems, transitioning into land development
                 at Pulte Homes, and leading the development, acquisition, and
                 operations of over 25 predominantly industrial-zoned facilities
