@@ -45,7 +45,7 @@ export default function About() {
           {/* Headshot -- left column */}
           <div
             className="relative overflow-hidden w-full shrink-0 lg:w-[320px]"
-            style={{ height: "400px" }}
+            style={{ height: "360px" }}
           >
             <Image
               src="/photos/headshot/trevor-pratte-headshot.jpg"
