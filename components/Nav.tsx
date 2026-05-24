@@ -53,7 +53,7 @@ export default function Nav() {
           : "1px solid transparent",
       }}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-16">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-20">
         {/* Logo — hidden on home page while hero is visible */}
         <Link
           href="/"
@@ -67,7 +67,7 @@ export default function Nav() {
             width={120}
             height={118}
             priority
-            style={{ width: "auto", height: "38px" }}
+            style={{ width: "auto", height: "52px" }}
           />
         </Link>
 
