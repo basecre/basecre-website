@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+const BRAND_FONT = "var(--font-helvetica-neue), 'Helvetica Neue', Helvetica, Arial, sans-serif";
+
 export const metadata: Metadata = {
   title: "Privacy Policy | Base CRE",
   description: "Privacy Policy for Base CRE LLC and basecre.com.",
@@ -37,8 +39,9 @@ export default function Privacy() {
 
         <div
           style={{
+            fontFamily: BRAND_FONT,
             fontWeight: 300,
-            fontSize: "0.9375rem",
+            fontSize: "0.9rem",
             lineHeight: 1.7,
             color: "var(--dark-olive)",
             display: "flex",

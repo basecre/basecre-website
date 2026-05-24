@@ -29,8 +29,8 @@ export default function Contact() {
             style={{
               fontFamily: BRAND_FONT,
               fontWeight: 300,
-              fontSize: "1rem",
-              lineHeight: 1.65,
+              fontSize: "clamp(1.0625rem, 1.5vw, 1.25rem)",
+              lineHeight: 1.6,
               color: "var(--dark-olive)",
               margin: "0 0 1.5rem 0",
             }}

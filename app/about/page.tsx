@@ -87,8 +87,8 @@ export default function About() {
                 style={{
                   fontFamily: BRAND_FONT,
                   fontWeight: 300,
-                  fontSize: "0.9375rem",
-                  lineHeight: 1.65,
+                  fontSize: "clamp(1.0625rem, 1.5vw, 1.25rem)",
+                  lineHeight: 1.6,
                   color: "var(--dark-olive)",
                   margin: 0,
                 }}
@@ -106,9 +106,9 @@ export default function About() {
               <p
                 style={{
                   fontFamily: BRAND_FONT,
-                  fontWeight: 300,
-                  fontSize: "0.9375rem",
-                  lineHeight: 1.65,
+                  fontWeight: 400,
+                  fontSize: "0.875rem",
+                  lineHeight: 1.6,
                   color: "var(--dark-olive)",
                   margin: 0,
                 }}
