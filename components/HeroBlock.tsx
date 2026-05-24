@@ -7,7 +7,7 @@ export default function HeroBlock() {
       className="relative flex flex-col"
       style={{
         backgroundColor: "var(--white)",
-        paddingTop: "96px",
+        paddingTop: "112px",
       }}
     >
       <div className="max-w-7xl mx-auto w-full px-6 lg:px-12 pb-4 lg:pb-5">
