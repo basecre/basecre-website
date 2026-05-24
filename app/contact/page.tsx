@@ -19,7 +19,7 @@ function LinkedInIcon() {
 export default function Contact() {
   return (
     <>
-      <div style={{ paddingTop: "80px" }} />
+      <div style={{ paddingTop: "64px" }} />
 
       <section className="max-w-7xl mx-auto px-6 lg:px-12 pt-8 pb-8 lg:pt-10 lg:pb-10">
         <div className="max-w-lg">

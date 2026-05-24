@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Privacy() {
   return (
     <>
-      <div style={{ paddingTop: "80px" }} />
+      <div style={{ paddingTop: "64px" }} />
 
       <section className="max-w-3xl mx-auto px-6 lg:px-8 py-16 lg:py-24">
         <h1

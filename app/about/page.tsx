@@ -13,7 +13,7 @@ export default function About() {
   return (
     <>
       {/* Page header -- matches nav height offset */}
-      <div style={{ paddingTop: "80px" }} />
+      <div style={{ paddingTop: "64px" }} />
 
       {/* Firm Statement */}
       <section className="max-w-7xl mx-auto px-6 lg:px-12 pt-8 pb-0">
