@@ -41,11 +41,11 @@ export default function About() {
 
       {/* Trevor Pratte -- split layout */}
       <section className="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12 lg:pb-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start lg:items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Headshot -- left column */}
           <div
-            className="relative overflow-hidden aspect-[4/5] lg:aspect-auto"
-            style={{ maxWidth: "520px" }}
+            className="relative overflow-hidden aspect-[3/4]"
+            style={{ maxWidth: "360px" }}
           >
             <Image
               src="/photos/headshot/trevor-pratte-headshot.jpg"
