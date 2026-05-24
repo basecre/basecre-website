@@ -41,9 +41,12 @@ export default function About() {
 
       {/* Trevor Pratte -- split layout */}
       <section className="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12 lg:pb-16">
-        <div className="flex flex-col gap-10 lg:flex-row lg:items-stretch lg:gap-20">
+        <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-20">
           {/* Headshot -- left column */}
-          <div className="relative overflow-hidden aspect-[3/4] w-full lg:w-auto">
+          <div
+            className="relative overflow-hidden w-full shrink-0 lg:w-[320px]"
+            style={{ height: "400px" }}
+          >
             <Image
               src="/photos/headshot/trevor-pratte-headshot.jpg"
               alt="Trevor Pratte, Founder and Principal, Base CRE"
