@@ -73,8 +73,10 @@ export default function Nav() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
-          {navItems.map((item) =>
-            item.href === null ? (
+          {/* Listings: hidden until LoopNet URL is live — re-enable and add href here */}
+          {navItems.map((item) => {
+            if (item.label === "Listings") return null;
+            return item.href === null ? (
               <span
                 key={item.label}
                 className="nav-link cursor-default opacity-50 select-none"
@@ -91,8 +93,8 @@ export default function Nav() {
               >
                 {item.label}
               </Link>
-            )
-          )}
+            );
+          })}
         </nav>
 
         {/* Mobile hamburger */}
@@ -133,8 +135,10 @@ export default function Nav() {
             borderColor: "color-mix(in srgb, var(--cre-gray) 25%, transparent)",
           }}
         >
-          {navItems.map((item) =>
-            item.href === null ? (
+          {/* Listings: hidden until LoopNet URL is live — re-enable and add href here */}
+          {navItems.map((item) => {
+            if (item.label === "Listings") return null;
+            return item.href === null ? (
               <span
                 key={item.label}
                 className="nav-link cursor-default opacity-50 select-none"
@@ -151,8 +155,8 @@ export default function Nav() {
               >
                 {item.label}
               </Link>
-            )
-          )}
+            );
+          })}
         </div>
       )}
     </header>

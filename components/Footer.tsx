@@ -16,8 +16,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-6">
         {/* Nav links */}
         <nav className="flex flex-wrap gap-6 items-center">
-          {navItems.map((item) =>
-            item.href === null ? (
+          {/* Listings: hidden until LoopNet URL is live — re-enable and add href here */}
+          {navItems.map((item) => {
+            if (item.label === "Listings") return null;
+            return item.href === null ? (
               <span
                 key={item.label}
                 className="cursor-default opacity-50 select-none"
@@ -48,8 +50,8 @@ export default function Footer() {
               >
                 {item.label}
               </Link>
-            )
-          )}
+            );
+          })}
           <Link
             href="/privacy"
             style={{
